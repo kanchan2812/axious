@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>JS For Beginners</title>
     <link rel="stylesheet" href="style.css">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -27,7 +29,18 @@
         <input class="btn" type="submit" value="Submit">
       </form>
 
-      <ul id="users"></ul>
+      <ul id="users">
+        <!-- Example user entry -->
+        <li data-user-id="123">
+          <!-- User details go here -->
+          <span>Name: John Doe</span>
+          <span>Email: john@example.com</span>
+          <button class="delete-icon">Delete</button>
+        </li>
+        
+        <!-- More user entries go here... -->
+      </ul>
+      
 
       <!-- <ul class="items">
         <li class="item">Item 1</li>
